@@ -9,7 +9,8 @@
 			"cc",
 			"cc/core",
 			"<!(node -e \"require('nan')\")",
-			"<!(node -e \"require('native-node-utils')\")"
+			"<!(node -e \"require('native-node-utils')\")",
+			"C:/tools/opencv/build/include",
 		],
 		"libraries": [
 			"<!@(node ./install/parseEnv.js OPENCV4NODEJS_LIBRARIES)",
